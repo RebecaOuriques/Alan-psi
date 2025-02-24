@@ -9,7 +9,7 @@ export default {
 
         fontFamily: {
           corpo: ["Roboto", "serif"],
-          nome: ["Poppins", "serif"],
+          corpo2: ["Poppins", "serif"],
           nome2: ["Open Sans", "serif"],
           nome3: ["Italianno", "serif"],
           nome4: ["Ubuntu", "serif"],

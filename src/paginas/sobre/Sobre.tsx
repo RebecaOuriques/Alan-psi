@@ -31,7 +31,7 @@ function Sobre() {
             <h2 className='font-bold text-3xl text-center xl:text-left py-3 bg-cor4 md:bg-inherit text-white md:text-slate-600 font-corpo md:pl-2'>Sobre mim</h2>
             <div className="justify-around py-1 text-slate-600">
 
-                <div className="justify-around font-nome text-xl">
+                <div className="justify-around font-corpo2 text-xl">
 
 
                     <div className='px-3'>
