@@ -42,10 +42,10 @@ function Servicos() {
 
     return (
         <>
-            <div className="text-4xl font-corpo font-bold text-white md:text-slate-600 p-3 text-center bg-cor4 md:bg-white xl:text-left">
+            <div className="text-4xl font-corpo2 font-bold text-white md:text-slate-600 p-3 text-center bg-cor4 md:bg-white xl:text-left">
                 Serviços
             </div>
-            <div className="bg-white font-corpo text-center text-4xl px-2 py-1 text-slate-600 md:pb-2">
+            <div className="bg-white font-corpo2 text-center text-4xl px-2 py-1 text-slate-600 md:pb-2">
                 Comece agora a priorizar sua saúde mental
             </div>
 
@@ -68,10 +68,10 @@ function Servicos() {
                                         className="container rounded-2xl w-full justify-center items-center object-contain h-72"
                                     />
                                     <div className="text-cor3">
-                                        <p className="text-center font-bold font-corpo text-xl py-2">
+                                        <p className="text-center font-bold font-corpo2 text-xl py-2">
                                             {servicos.titulo}
                                         </p>
-                                        <p className="font-corpo px-3 text-slate-600 font-semibold text-justify text-lg">
+                                        <p className="font-corpo2 px-3 text-slate-600 font-semibold text-justify text-lg">
                                             {servicos.descricao}
                                         </p>
                                     </div>
@@ -92,10 +92,10 @@ function Servicos() {
                                     className="container rounded-2xl w-full justify-center items-center object-contain h-72"
                                 />
                                 <div className="text-cor3">
-                                    <p className="text-center font-bold font-corpo text-xl py-2">
+                                    <p className="text-center font-bold font-corpo2 text-xl py-2">
                                         {servicos.titulo}
                                     </p>
-                                    <p className="font-corpo px-3 text-slate-600 font-semibold text-justify text-lg">
+                                    <p className="font-corpo2 px-3 text-slate-600 font-semibold text-justify text-lg">
                                         {servicos.descricao}
                                     </p>
                                 </div>

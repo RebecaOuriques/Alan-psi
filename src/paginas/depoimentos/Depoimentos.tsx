@@ -10,28 +10,27 @@ function Depoimentos() {
     const depoimento = [
         {
             imagem: avatar,
-            nome: "E. L. T.",
-            descricao: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+            nome: "M. J. P.",
+            faixa: "40 a 50 anos",
+            descricao: "A experiência com o Alan foi transformadora. [...] A cada sessão, senti uma melhora na minha percepção sobre mim mesma e sobre os outros. Ele me ajudou a entender e enfrentar questões de autossabotagem que estavam me impedindo de viver plenamente."
         },
         {
             imagem: avatar,
-            nome: "R. B. D.",
-            descricao: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+            nome: "R. S. L.",
+            faixa: "20 a 30 anos",
+            descricao: "Eu estava passando por uma fase difícil e foi a terapia com o Alan que me deu ferramentas para lidar melhor com a ansiedade e os desafios diários. Hoje me sinto mais confiante e em paz comigo mesma."
         },
         {
             imagem: avatar,
-            nome: "V. V. G.",
-            descricao: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+            nome: "L. M. C.",
+            faixa: "50 a 60 anos",
+            descricao: "Cheguei ao Alan em um momento de crise, sem saber como resolver meus problemas. [...] Com o acompanhamento dele, consegui não só entender melhor as causas dos meus sentimentos, mas também encontrar soluções práticas para melhorar meu dia a dia."
         },
         {
             imagem: avatar,
-            nome: "A. A. D.",
-            descricao: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-        },
-        {
-            imagem: avatar,
-            nome: "L. M. F.",
-            descricao: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+            nome: "A. F. S.",
+            faixa: "30 a 40 anos",
+            descricao: "O trabalho realizado com o Alan tem sido essencial para o meu desenvolvimento pessoal. Aprendi a lidar com minhas emoções e agora tenho mais controle sobre minhas reações, o que trouxe mais equilíbrio para minha vida."
         },
 
     ]
@@ -39,7 +38,7 @@ function Depoimentos() {
 
         <>
             <div className="bg-cor1">
-                <h2 className='font-bold text-3xl text-center xl:text-left py-3 bg-cor4 md:bg-inherit text-white md:text-slate-600 font-corpo md:pl-2'>
+                <h2 className='font-bold font-corpo2 text-3xl text-center xl:text-left py-3 bg-cor4 md:bg-inherit text-white md:text-slate-600 md:pl-2'>
                     Depoimentos
                 </h2>
 
@@ -75,7 +74,8 @@ function Depoimentos() {
 
                                     <div className=" px-2 pt-3 ">
                                         <p className="text-center py-2 text-2xl font-corpo2"> {slide.nome}</p>
-                                        <p className="text-justify text-xl py-3 mb-10 mx-6 font-corpo2"> {slide.descricao}</p>
+                                        <p className="text-center py-2 text-xl font-corpo2"> {slide.faixa}</p>
+                                        <p className="text-justify text-lg py-3 mb-10 mx-6 font-corpo2 h-[25vh] md:h-[35vh]"> {slide.descricao}</p>
                                     </div>
                                 </div>
                             </SwiperSlide>

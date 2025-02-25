@@ -1,11 +1,12 @@
+import psi from '../../assets/psi.png'
 
 function Footer() {
   return (
-    <div className=" bg-cor3 flex flex-col justify-center p-2">
-      <div className="text-white">
-      </div>
-      <div>
-      <p className="text-white  flex justify-center font-corpo text-lg">© 2025 Psicólogo Alan Ribeiro - CRP 05/60417.</p>
+    <div className=" bg-cor3 flex flex-row justify-center p-2">
+      <img src={psi} alt="" className=' h-10 md:h-12 mx-2 mt-2 md:mt-1'/>
+     <div className="text-white font-corpo2 text-center text-lg">
+      <p>© 2025 Alan Ribeiro</p>
+      <p>Psicólogo CRP 05/60417. </p>
       </div>
     </div>
   );
